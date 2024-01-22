@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+
+.schoolName{
+   font-weight: 900;
+}
+
+ 
+ .activeItem{
+    
+    color: white !important;
+    border-bottom: 3px solid orange;
+     /* box-shadow: 1px 1px 1px  black;  */
+} 
+.nav-item{
+    padding-left: 4px !important;
+}
+.navbar-color{
+    background-color: green;
+    color: white;
+    
+}
+.borderStyle{
+    border-bottom: 5px solid orange;
+    margin-top: 5px;
+}
+
+.navbar-nav .nav-link{
+color: white;
+font-weight: 700;
+}
+
+#aboutus{
+    /* background-image: linear-gradient(grey, white); */
+/* background-image: url("/images/background/about.jpg"); */
+ /* background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover; */
+/* backdrop-filter: blur(80px); */
+}
+
+.containerStyle{
+    /* backdrop-filter: blur(10px); */
+    /* font-weight: 500; */
+    /* color:white */
+    
+}
+.historySchool{
+    float: left;
+    padding: 10px;
+    border-radius: 25px;
+}
+.headingContainer{
+    display:flex;
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+}
+.headingContainer h4{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+/* .sectionPadding{
+    padding-top: 75px;
+    padding-bottom: 10px;
+    
+} */
+
+#administration{
+/* background-image: url("/images/background/administration.jpg"); */
+/* background-image: linear-gradient(grey,white);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover; */
+/* backdrop-filter: blur(14px); */
+}
+
+.iconSize{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+@media screen and (max-width: 991px){
+    .navbar-toggler{
+        color: white !important;
+        background-color: orange;
+    }
+}
+
+@media screen and ( max-width: 768px) {
+
+    
+    #logoSchoolName{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tabsAlteration{
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: small;
+        }
+    
+}
